@@ -1,0 +1,41 @@
+                            🎬 Movie Browser Web App
+
+A responsive web application for browsing movies using the TVMaze API. Users can paginate, filter by genre, and sort by rating or title. Bonus features include the ability to bookmark shows to a “Watch Later” list stored in localStorage.
+
+🚀 Features
+Fetch & Display: On load, fetch movie data and show poster, title, genres, and rating.
+
+Pagination: View 6 movies per page with Next/Previous buttons and current page indicator.
+
+Sorting: Sort by rating (high to low) or alphabetically by title.
+
+Filtering: Filter movies by genre—integrated with sorting and pagination.
+
+Watch Later: Bookmark favorite movies and save to localStorage.
+
+State Persistence: Maintain filters, sort order, and current page using URL parameters or localStorage.
+
+🛠️ Technologies Used
+HTML, CSS (or Tailwind CSS)
+
+Vanilla JavaScript
+
+TVMaze API for movie data (fetch() used exclusively)
+
+localStorage for state persistence
+
+📁 Setup Instructions
+Clone the repo:
+
+git clone https://github.com/your-username/movie-browser.git
+
+Open index.html in your browser.
+
+Start browsing!
+
+✨ Bonus Ideas
+Add animations or hover effects to movie cards.
+
+Support multiple genres in the filter.
+
+Display average rating visually with stars.
